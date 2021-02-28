@@ -1,0 +1,48 @@
+form{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+    box-shadow: 8px gray;
+    background-color: rgb(216, 216, 216);
+}
+input, textarea{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    border: 1px solid;
+    box-shadow: grey 8px;
+}
+p{
+    padding: 15px;
+}
+input[type="submit"], [type="reset"]{
+    float: right;
+    margin-left: 5px;
+    background-color: rgb(136, 17, 221);
+    border: 1px solid rgb(136, 17, 221);
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: rgb(216, 216, 216);
+}
+input[type="submit"]:hover, [type="reset"]:hover {
+    border: 1px solid rgb(136, 17, 221);
+    background-color: rgb(216, 216, 216);
+    color: rgb(136, 17, 221);
+}
+h1{
+    background-color: rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px;
+    border-radius: 5px;
+}
+select{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    border: 1px solid;
+    box-shadow: grey 8px;
+    width: auto;
+}
